@@ -1,0 +1,24 @@
+.Navbar {
+    font-size: large;
+    margin-left: 75px;
+    margin-right: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: pink; */
+}
+
+.Navbar img {
+    height: 35px;
+    margin-top: 10px;
+}
+
+.Navbar div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.Navbar div p {
+    padding-left: 30px;
+}
