@@ -1,0 +1,27 @@
+.CallToActionCard {
+    background-color: pink;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 25px;
+    width: 500px;
+    text-align: left;
+}
+
+.CallToActionCard h1 {
+    font-size: 40px;
+}
+
+.CallToActionCard h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 75px;
+}
+
+.two-input-fields {
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+    flex-grow: 4;
+}
