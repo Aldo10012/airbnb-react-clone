@@ -8,6 +8,7 @@
 
     border-color: black;
     border-width: 20px;;
+    flex: 1;
 }
 
 #header {

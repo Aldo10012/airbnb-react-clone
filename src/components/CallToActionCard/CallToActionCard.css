@@ -18,10 +18,9 @@
 }
 
 .two-input-fields {
-    background-color: yellow;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: stretch;
-    flex-grow: 4;
+    gap: 15px;
 }
