@@ -1,0 +1,19 @@
+.PillView {
+    background-color: white;
+    height: 40px;
+    width: 90px;
+
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: lightgray;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.PillView h4 {
+    font-weight: 350;
+}
