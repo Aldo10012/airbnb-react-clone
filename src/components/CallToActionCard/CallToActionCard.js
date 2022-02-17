@@ -1,6 +1,7 @@
 import './CallToActionCard.css'
 import InputField from '../InputField/InputField.js'
 import PillView from '../PillView/PillView.js'
+import Button from '../Button/Button.js'
 
 function CallToActionCard(){
     return(
@@ -27,6 +28,9 @@ function CallToActionCard(){
                 <PillView title='HotTub' />
                 <PillView title='Pool' />
                 <PillView title='Wifi' />
+            </div>
+            <div className='search-btn'>
+                <Button text='Search' backgroundColor='#FF5A5F' textColor='white' borderColor='#FF5A5F'/>
             </div>
             
         </div>

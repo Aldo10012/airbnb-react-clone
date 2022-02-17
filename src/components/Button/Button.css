@@ -1,0 +1,13 @@
+.Button {
+    border-radius: 10px;
+    border-style: solid;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button p {
+    font-size: large;
+}
