@@ -15,6 +15,12 @@ function App() {
       <Navbar />
       <CallToActionCard />
       <TryHostingCard />
+      <h2>What guests are saying about homes in United States</h2>
+      <h2>What guests are saying about homes in United States</h2>
+      <h2>What guests are saying about homes in United States</h2>
+      <h2>What guests are saying about homes in United States</h2>
+      <h2>What guests are saying about homes in United States</h2>
+      
 
 
 

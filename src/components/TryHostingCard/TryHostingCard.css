@@ -1,44 +1,40 @@
 .TryHostingCard {
     background-color: red;
+    height: 575px;
     margin-left: 75px;
     margin-right: 75px;
     margin-top: 35px;
     text-align: left;
 
-    /* background-image: url("https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg"); */
+    background-image: url("https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.TryHostingCard img {
-    width: 100%;
-    z-index: 1;
-    position: absolute;
-    border-radius: 25px;
- }
-
 .content {
-    /* background-color: green;  */
-    float: left;
-    z-index: 1;
-    position: absolute;
-    margin-left: 75px;
-    margin-top: 200px;
     color: white;
+    margin-left: 50px;
 }
 
 .content h1 {
     font-size: 50px;
     font-weight: 500;
+    text-shadow: 0 0 6px black;
 }
 
 .content h3 {
     font-size: 22px;
     font-weight: 250;
     padding-right: 50px;
+    text-shadow: 0 0 6px black;
 }
 
 .btn {
-    width: 40%;
+    width: 200px;
     margin-top: 30px;
 }
