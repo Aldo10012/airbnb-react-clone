@@ -10,7 +10,7 @@ function ReviewCard(props) {
 
     return (
         <div className='ReviewCard'>
-            <img src={HomeImg} id='main'></img>
+            <img src={img_url} id='main'></img>
             <div className='rowOfStart'>
                 <img src={starImg} className='star'></img>
                 <img src={starImg} className='star'></img>
@@ -18,13 +18,13 @@ function ReviewCard(props) {
                 <img src={starImg} className='star'></img>
                 <img src={starImg} className='star'></img>
             </div>
-            <p>'{REVIEW}'</p>
+            <p>"{review}"</p>
 
             <div className='userInfo'>
                 <img src={ProfilePic} className='profilePic'></img>
                 <div className='userContent'>
-                    <p id='userName'>sss</p>
-                    <p id='userLocation'>ddd</p>
+                    <p id='userName'>{user_name}</p>
+                    <p id='userLocation'>{user_location}</p>
                 </div>
                 
             </div>

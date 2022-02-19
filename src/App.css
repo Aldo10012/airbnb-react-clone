@@ -2,14 +2,14 @@
   /* text-align: center; */
 }
 
-.App h2 {
+.App > h2 {
   font-size: xx-large;
   font-weight: 450;
   margin-left: 75px;
   margin-right: 75px;
 }
 
-.App p {
+.App > p {
   font-size: medium;
   font-weight: 450;
   margin-left: 75px;
