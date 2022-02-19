@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar.js'
 import CallToActionCard from './components/CallToActionCard/CallToActionCard.js'
 import TryHostingCard from './components/TryHostingCard/TryHostingCard.js'
+import ReviewCard from './components/ReviewCard/ReviewCard.js'
 
 // import TryHostingCard from '../components/TryHostingCard/TryHostingCard.js'
 
@@ -16,10 +17,13 @@ function App() {
       <CallToActionCard />
       <TryHostingCard />
       <h2>What guests are saying about homes in United States</h2>
-      <h2>What guests are saying about homes in United States</h2>
-      <h2>What guests are saying about homes in United States</h2>
-      <h2>What guests are saying about homes in United States</h2>
-      <h2>What guests are saying about homes in United States</h2>
+      <p>Over 72,500,000 guest reviews with an average of 4.8 out of 5 stars</p>
+
+      <div className='reviewSection'>
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
+      </div>
       
 
 

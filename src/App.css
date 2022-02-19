@@ -1,6 +1,32 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
+
+.App h2 {
+  font-size: xx-large;
+  font-weight: 450;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.App p {
+  font-size: medium;
+  font-weight: 450;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.reviewSection {
+  margin-left: 75px;
+  margin-right: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 15px;  
+}
+
+
+
 
 .App-logo {
   height: 40vmin;

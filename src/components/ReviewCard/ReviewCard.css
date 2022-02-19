@@ -1,0 +1,51 @@
+.ReviewCard {
+    width: 100%;
+    /* background-color: green; */
+    text-align: left;
+}
+
+.ReviewCard p {
+    /* background-color: red; */
+    margin: 0;
+    margin-top: 10px;
+}
+
+.ReviewCard #main {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.star {
+    width: 22px;
+    height: 22px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+/* ************ */
+/* USER CONTENT */
+/* ************ */
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+
+.profilePic {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+#userName {
+    font-size: larger;
+    font-weight: 650;
+}
+
+#userLocation {
+    font-size: small;
+}
