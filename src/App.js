@@ -4,9 +4,7 @@ import Navbar from './components/Navbar/Navbar.js'
 import CallToActionCard from './components/CallToActionCard/CallToActionCard.js'
 import TryHostingCard from './components/TryHostingCard/TryHostingCard.js'
 import ReviewCard from './components/ReviewCard/ReviewCard.js'
-
-// import TryHostingCard from '../components/TryHostingCard/TryHostingCard.js'
-
+import Content from './components/Content/Content.js'
 
 // Cloning this: https://www.airbnb.com/a/stays/?ghost=true&c=.pi0.pk15998387001_135672839914&ghost=true&gclid=Cj0KCQiAr5iQBhCsARIsAPcwRON-JIiLxFDHZiXc1Y5y6YE4aLy5oqAZqNhT2M4s4dVG7hC0z0tjBp4aAhWmEALw_wcB
 
@@ -46,7 +44,23 @@ function App() {
 
       </div>
       
-
+      <div className='ContentSection'>
+        <Content 
+          img='http://cdn.onlinewebfonts.com/svg/img_35494.png' 
+          header='24/7 customer support' 
+          text='Day or night, we’re here for you. Talk to our support team from anywhere in the world, any hour of day.'
+        />
+        <Content 
+          img='https://icons.veryicon.com/png/o/miscellaneous/zhiutech-icon/house-34.png' 
+          header='Global hosting requirements' 
+          text='All hosts must meet hosting requirements and maintain a minimum rating to be on Airbnb.'
+        />
+        <Content 
+          img='https://iconape.com/wp-content/files/pl/10525/png/star.png' 
+          header='All-star hosts' 
+          text='From fresh-pressed sheets to tips on where to get the best brunch, our hosts are full of local hospitality.'
+        />
+      </div>
 
 
       {/* <header className="App-header">
