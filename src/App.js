@@ -5,6 +5,7 @@ import CallToActionCard from './components/CallToActionCard/CallToActionCard.js'
 import TryHostingCard from './components/TryHostingCard/TryHostingCard.js'
 import ReviewCard from './components/ReviewCard/ReviewCard.js'
 import Content from './components/Content/Content.js'
+import JustBookedCard from './components/JustBookedCard/JustBookedCard.js'
 
 // Cloning this: https://www.airbnb.com/a/stays/?ghost=true&c=.pi0.pk15998387001_135672839914&ghost=true&gclid=Cj0KCQiAr5iQBhCsARIsAPcwRON-JIiLxFDHZiXc1Y5y6YE4aLy5oqAZqNhT2M4s4dVG7hC0z0tjBp4aAhWmEALw_wcB
 
@@ -62,6 +63,44 @@ function App() {
         />
       </div>
 
+      <h2>Just Booked in United States</h2>
+
+      <div className='JustBookedCardSection'>
+        <JustBookedCard 
+          img='https://www.territorysupply.com/wp-content/uploads/2021/01/best-airbnbs-oakland-california.jpg' 
+          description='Earth house in Murfreesboro' 
+          slogan='The Hobbit House' 
+          cost='84'
+          review='4.83'
+          number_of_reviews='469'
+        />
+        <JustBookedCard 
+          img='https://www.territorysupply.com/wp-content/uploads/2021/01/best-airbnbs-oakland-california.jpg' 
+          description='Residential home is Cincinnati' 
+          slogan='The Swing House' 
+          cost='204'
+          review='498'
+          number_of_reviews='400'
+        />
+        <JustBookedCard 
+          img='https://www.territorysupply.com/wp-content/uploads/2021/01/best-airbnbs-oakland-california.jpg' 
+          description='Treehouse in east Point' 
+          slogan='The ATL Treehouse' 
+          cost='258'
+          review='4.81'
+          number_of_reviews='321'
+        />
+        <JustBookedCard 
+          img='https://www.territorysupply.com/wp-content/uploads/2021/01/best-airbnbs-oakland-california.jpg' 
+          description='Treehouse in China Grove' 
+          slogan='Cherry Treesort "Big Nick"' 
+          cost='181'
+          review='4.88'
+          number_of_reviews='536'
+        />
+        
+      </div>
+      
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

@@ -1,0 +1,29 @@
+.JustBookedCard {
+
+}
+
+.JustBookedCard img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#description {
+    color: rgb(141, 141, 141);
+    font-size: 18px;
+}
+
+#slogan {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#descriptionSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#star {
+    width: 15px;
+    height: 15px;
+}
