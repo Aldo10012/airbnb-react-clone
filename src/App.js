@@ -7,9 +7,22 @@ import ReviewCard from './components/ReviewCard/ReviewCard.js'
 import Content from './components/Content/Content.js'
 import JustBookedCard from './components/JustBookedCard/JustBookedCard.js'
 
+import data from './data/ReviewCard-data.json'
+
 // Cloning this: https://www.airbnb.com/a/stays/?ghost=true&c=.pi0.pk15998387001_135672839914&ghost=true&gclid=Cj0KCQiAr5iQBhCsARIsAPcwRON-JIiLxFDHZiXc1Y5y6YE4aLy5oqAZqNhT2M4s4dVG7hC0z0tjBp4aAhWmEALw_wcB
 
 function App() {
+
+  const reviewCard = data.map((obj) => {
+    return  <ReviewCard 
+              img_url = {obj.img_url} 
+              ratings = {obj.ratings} 
+              review = {obj.review} 
+              user_name = {obj.user_name} 
+              user_location = {obj.user_location} />
+  })
+
+
   return (
     <div className="App">
       <Navbar />
@@ -19,7 +32,9 @@ function App() {
       <p>Over 72,500,000 guest reviews with an average of 4.8 out of 5 stars</p>
 
       <div className='reviewSection'>
-        <ReviewCard 
+        {reviewCard}
+
+        {/* <ReviewCard 
           img_url = 'https://a0.muscache.com/im/pictures/b521a92c-26e1-435b-b0b2-e2aa62d28452.jpg?im_w=480'
           ratings = '5'
           review = "Wow where do I start, incredible location, incredible view, incredible studio! Matthias was a fabulous host, made sure we had everything we needed, gave us fantastic recommendations for the locality and gave us a street name for the perfect starting point for our early morning climb to the 'sign'."
@@ -41,7 +56,7 @@ function App() {
           review = 'Thank you so much for opening up your home/backyard for our girls weekend in Austin!  Staying in this groovy airstream enhanced our trip and felt very "Austin-y" - much better than staying at a regular hotel! Highly recommend!'
           user_name = 'Aidan'
           user_location = 'United Kingdom'
-        />
+        /> */}
 
       </div>
       
