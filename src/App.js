@@ -13,6 +13,7 @@ import JustBookedCard from './components/JustBookedCard/JustBookedCard.js'
 import reviewCard_data from './data/ReviewCard-data.json'
 import content_data from './data/Content-data.json'
 import justBooked_data from './data/JustBookedCard.json'
+import Button from './components/Button/Button';
 
 // Cloning this: https://www.airbnb.com/a/stays/?ghost=true&c=.pi0.pk15998387001_135672839914&ghost=true&gclid=Cj0KCQiAr5iQBhCsARIsAPcwRON-JIiLxFDHZiXc1Y5y6YE4aLy5oqAZqNhT2M4s4dVG7hC0z0tjBp4aAhWmEALw_wcB
 
@@ -69,6 +70,24 @@ function App() {
       <div className='JustBookedCardSection'>
         {justBookedCards}
       </div>
+
+      <div id='show2000Button'>
+        <Button text="Show (2000+)" backgroundColor="white" textColor="black" borderColor='black'/>
+      </div>
+
+      <h2>When are you traveling?</h2>
+      <p>Add dates for updated pricing and availability</p>
+
+      <div id='addDateButton'>
+        <Button text="Add Date" backgroundColor="black" textColor="white" borderColor='white'/>
+      </div>
+
+      <p><strong>Airbnb</strong> <img class='chevron' src='https://cdn0.iconfinder.com/data/icons/entypo/86/chevron2-512.png' /> <strong>Stays</strong> <img class='chevron' src='https://cdn0.iconfinder.com/data/icons/entypo/86/chevron2-512.png' /> United States</p>
+      
+      <hr class="solid" />
+
+      <p>© 2022 Airbnb, Inc. All rights reserved • Privacy • Terms • Site Map</p>
+
       
     </div>
   );

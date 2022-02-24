@@ -44,6 +44,32 @@
   gap: 15px;  
 }
 
+#show2000Button {
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 30px;
+  width: 200px;
+}
+
+#addDateButton {
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 30px;
+  width: 150px;
+}
+
+.chevron {
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+hr.solid {
+  border-top: 1px solid #bbb;
+  margin: 100px 75px 0px 75px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
