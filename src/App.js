@@ -12,6 +12,7 @@ import JustBookedCard from './components/JustBookedCard/JustBookedCard.js'
 // Data
 import reviewCard_data from './data/ReviewCard-data.json'
 import content_data from './data/Content-data.json'
+import justBooked_data from './data/JustBookedCard.json'
 
 // Cloning this: https://www.airbnb.com/a/stays/?ghost=true&c=.pi0.pk15998387001_135672839914&ghost=true&gclid=Cj0KCQiAr5iQBhCsARIsAPcwRON-JIiLxFDHZiXc1Y5y6YE4aLy5oqAZqNhT2M4s4dVG7hC0z0tjBp4aAhWmEALw_wcB
 
@@ -19,15 +20,31 @@ function App() {
 
   const reviewCard = reviewCard_data.map((obj) => {
     return  <ReviewCard 
-              img_url = {obj.img_url} 
-              ratings = {obj.ratings} 
-              review = {obj.review} 
-              user_name = {obj.user_name} 
-              user_location = {obj.user_location} />
+      img_url = {obj.img_url} 
+      ratings = {obj.ratings} 
+      review = {obj.review} 
+      user_name = {obj.user_name} 
+      user_location = {obj.user_location} 
+    />
   })
 
   const contents = content_data.map(obj => {
-    return <Content img = {obj.img} header = {obj.header} text = {obj.text}/>
+    return <Content 
+      img = {obj.img} 
+      header = {obj.header} 
+      text = {obj.text}
+    />
+  })
+
+  const justBookedCards = justBooked_data.map(obj => {
+    return <JustBookedCard 
+      img = {obj.img} 
+      description = {obj.description} 
+      slogan = {obj.slogan} 
+      cost = {obj.cost} 
+      review = {obj.review} 
+      number_of_reviews = {obj.number_of_reviews} 
+    />
   })
 
 
@@ -92,7 +109,10 @@ function App() {
       <h2>Just Booked in United States</h2>
 
       <div className='JustBookedCardSection'>
-        <JustBookedCard 
+
+        {justBookedCards}
+
+        {/* <JustBookedCard 
           img='https://www.territorysupply.com/wp-content/uploads/2021/01/best-airbnbs-oakland-california.jpg' 
           description='Earth house in Murfreesboro' 
           slogan='The Hobbit House' 
@@ -123,7 +143,7 @@ function App() {
           cost='181'
           review='4.88'
           number_of_reviews='536'
-        />
+        /> */}
         
       </div>
       

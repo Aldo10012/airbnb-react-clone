@@ -1,0 +1,34 @@
+[
+    {
+        "img": "https://www.territorysupply.com/wp-content/uploads/2021/01/best-airbnbs-oakland-california.jpg",
+        "description": "Earth house in Murfreesboro",
+        "slogan": "The Hobbit House",
+        "cost": "84",
+        "review": "4.83",
+        "number_of_reviews": "469"
+    },
+    {
+        "img": "https://www.territorysupply.com/wp-content/uploads/2021/01/best-airbnbs-oakland-california.jpg",
+        "description": "Residential home is Cincinnati",
+        "slogan": "The Swing House",
+        "cost": "204",
+        "review": "498",
+        "number_of_reviews": "400"
+    },
+    {
+        "img": "https://www.territorysupply.com/wp-content/uploads/2021/01/best-airbnbs-oakland-california.jpg",
+        "description": "Treehouse in east Point",
+        "slogan": "The ATL Treehouse",
+        "cost": "258",
+        "review": "4.81",
+        "number_of_reviews": "321"
+    },
+    {
+        "img": "https://www.territorysupply.com/wp-content/uploads/2021/01/best-airbnbs-oakland-california.jpg",
+        "description": "Treehouse in China Grove",
+        "slogan": "Cherry Treesort 'Big Nick'",
+        "cost": "181",
+        "review": "4.88",
+        "number_of_reviews": "536"
+    }
+]
