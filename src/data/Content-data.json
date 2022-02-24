@@ -1,0 +1,17 @@
+[
+    {
+        "img" : "http://cdn.onlinewebfonts.com/svg/img_35494.png",
+        "header" : "24/7 customer support",
+        "text" : "Day or night, we’re here for you. Talk to our support team from anywhere in the world, any hour of day."
+    },
+    {
+        "img" : "https://icons.veryicon.com/png/o/miscellaneous/zhiutech-icon/house-34.png",
+        "header" : "Global hosting requirements",
+        "text" : "All hosts must meet hosting requirements and maintain a minimum rating to be on Airbnb."
+    },
+    {
+        "img" : "https://iconape.com/wp-content/files/pl/10525/png/star.png",
+        "header" : "All-star hosts",
+        "text" : "From fresh-pressed sheets to tips on where to get the best brunch, our hosts are full of local hospitality."
+    }
+]

@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+
+// Components
 import Navbar from './components/Navbar/Navbar.js'
 import CallToActionCard from './components/CallToActionCard/CallToActionCard.js'
 import TryHostingCard from './components/TryHostingCard/TryHostingCard.js'
@@ -7,19 +9,25 @@ import ReviewCard from './components/ReviewCard/ReviewCard.js'
 import Content from './components/Content/Content.js'
 import JustBookedCard from './components/JustBookedCard/JustBookedCard.js'
 
-import data from './data/ReviewCard-data.json'
+// Data
+import reviewCard_data from './data/ReviewCard-data.json'
+import content_data from './data/Content-data.json'
 
 // Cloning this: https://www.airbnb.com/a/stays/?ghost=true&c=.pi0.pk15998387001_135672839914&ghost=true&gclid=Cj0KCQiAr5iQBhCsARIsAPcwRON-JIiLxFDHZiXc1Y5y6YE4aLy5oqAZqNhT2M4s4dVG7hC0z0tjBp4aAhWmEALw_wcB
 
 function App() {
 
-  const reviewCard = data.map((obj) => {
+  const reviewCard = reviewCard_data.map((obj) => {
     return  <ReviewCard 
               img_url = {obj.img_url} 
               ratings = {obj.ratings} 
               review = {obj.review} 
               user_name = {obj.user_name} 
               user_location = {obj.user_location} />
+  })
+
+  const contents = content_data.map(obj => {
+    return <Content img = {obj.img} header = {obj.header} text = {obj.text}/>
   })
 
 
@@ -61,7 +69,10 @@ function App() {
       </div>
       
       <div className='ContentSection'>
-        <Content 
+
+        {contents}
+
+        {/* <Content 
           img='http://cdn.onlinewebfonts.com/svg/img_35494.png' 
           header='24/7 customer support' 
           text='Day or night, we’re here for you. Talk to our support team from anywhere in the world, any hour of day.'
@@ -75,7 +86,7 @@ function App() {
           img='https://iconape.com/wp-content/files/pl/10525/png/star.png' 
           header='All-star hosts' 
           text='From fresh-pressed sheets to tips on where to get the best brunch, our hosts are full of local hospitality.'
-        />
+        /> */}
       </div>
 
       <h2>Just Booked in United States</h2>
