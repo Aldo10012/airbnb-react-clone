@@ -11,16 +11,16 @@ function CallToActionCard(){
 
             <h3>Discover entire homes and private rooms perfect for any trip</h3>
             
-            <InputField header="Location" placeholder='Nearby' />
+            <InputField header="Location" placeholder='Nearby' type='text'/>
 
             <div className='two-input-fields'>
-                <InputField header="Check In" placeholder='Add Date' />
-                <InputField header="Check Out" placeholder='Add Date' />
+                <InputField header="Check In" placeholder='Add Date' type='date'/>
+                <InputField header="Check Out" placeholder='Add Date' type='date'/>
             </div>
             
             <div className='two-input-fields'>
-                <InputField header="# of Adults" placeholder='2' />
-                <InputField header="# of Childred" placeholder='0' />
+                <InputField header="# of Adults" placeholder='2' type='number'/>
+                <InputField header="# of Childred" placeholder='0' type='number'/>
             </div>
             
             <p>AMENITIES</p>

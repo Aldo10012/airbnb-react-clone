@@ -1,11 +1,17 @@
 import './InputField.css'
 
 function InputField(props) {
-    const { header, placeholder } = props
+    const { header, placeholder, type } = props
     return(
         <div className='InputField'>
-            <p id='header'>{header}</p> 
-            <p id='placeholder'>{placeholder}</p>
+            <form>
+                <label id='header'>{header}</label><br/>
+                <input 
+                    id='placeholder'
+                    type={type}
+                    placeholder={placeholder}
+                />
+            </form>
         </div>
     )
 }

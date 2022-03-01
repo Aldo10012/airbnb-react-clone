@@ -13,17 +13,18 @@
     flex: 1;
 }
 
-#header {
+label {
     font-size: 15px;
     font-weight: bold;
     margin: 0px;
     padding-top: 10px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
-
-#placeholder {
+input {
     font-size: 20px;
     margin: 0px;
     padding-bottom: 10px;
-
+    outline: none;
+    border-style: none;
+    width: 95%;
 }
